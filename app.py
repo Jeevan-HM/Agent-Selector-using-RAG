@@ -147,7 +147,7 @@ def main():
             logging.StreamHandler(),
             logging.FileHandler("logfile.log"),
         ],
-    )   
+    )
     st.title("Agent Selector")
 
     # Input query from user
